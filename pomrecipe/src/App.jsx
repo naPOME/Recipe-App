@@ -31,11 +31,13 @@ function App() {
       <CircleIcon bgColor="rgb(31,41,55)" iconColor="#fff" description="Ice Cream" icon={<FaIceCream />} />
       <CircleIcon bgColor="rgb(31,41,55)" iconColor="#fff" description="Apple" icon={<FaApple />} />
     </div>
-
+    <h4 class="mb-2 mt-0 text-3xl font-small leading-tight text-primary px-10 text-start">Popular Meal</h4>
+<div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-0">
+  
     <Popular />
     <Popular />
     <Popular />
-    
+    </div>
 
     </>
    

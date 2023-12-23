@@ -2,8 +2,9 @@ import React from 'react';
 
 const Popular = () => {
   return (
-    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-      <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+    
+    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-10">
+      <div >
         {/* Card 1 */}
         <div class="rounded overflow-hidden shadow-lg">
           <a href="#"></a>
