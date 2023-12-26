@@ -3,6 +3,7 @@ import CircleIcon from "./components/CircleIcon";
 import Search from "./components/Search";
 import Popular from "./components/Popular";
 import { FaCoffee, FaPizzaSlice, FaIceCream, FaApple } from "react-icons/fa";
+import { LoadMore } from "./pages/loadMore";
 
 function App() {
   return (
@@ -40,8 +41,10 @@ function App() {
       <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-0">
         
           <Popular  />
+          
         
       </div>
+      
     </>
   );
 }
