@@ -1,7 +1,7 @@
-[
+export const popularMeal= [
     {
       "name": "Doro Wat",
-      "image": "doro_wat.jpg",
+      "image": "dorowot.webp",
       "description": "Spicy chicken stew served with injera.",
       "ingredients": ["Chicken", "Onions", "Berbere spice", "Garlic", "Vegetable oil"],
       "instructions": [
@@ -22,15 +22,15 @@
         "Served with injera and clarified butter."
       ]
     },{
-        "name": "Dish 1",
-        "image": "image_url_1.jpg",
+        "name": "Key Wot",
+        "image": "keywot.webp",
         "description": "Description for Dish 1",
         "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
         "instructions": ["Step 1", "Step 2", "Step 3"]
       },
       {
-        "name": "Dish 2",
-        "image": "image_url_2.jpg",
+        "name": "Qiqil",
+        "image": "qiqil.jpg",
         "description": "Description for Dish 2",
         "ingredients": ["Ingredient A", "Ingredient B", "Ingredient C"],
         "instructions": ["Step A", "Step B", "Step C"]
