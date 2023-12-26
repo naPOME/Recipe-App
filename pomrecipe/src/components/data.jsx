@@ -1,3 +1,6 @@
+import kitfo from '../../src/assets/kitfo.jpg'
+
+
 export const popularMeal= [
     {
       "name": "Doro Wat",
